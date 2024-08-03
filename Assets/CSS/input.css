@@ -47,3 +47,7 @@ body{
 .pagination-active {
     @apply text-white bg-[#E6B762]/70 flex items-center justify-center w-8 h-8 rounded-full
 }
+
+.tab-toggler.ui-tabs-active {
+    @apply bg-white text-black relative after:absolute after:w-full after:h-px after:bg-white after:left-0 after:-bottom-[1px]
+}
