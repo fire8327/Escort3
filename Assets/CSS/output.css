@@ -1954,6 +1954,19 @@ video {
   border-color: rgb(0 0 0 / 0.3);
 }
 
+.border-\[\#E\]{
+  border-color: #E;
+}
+
+.border-\[\#E6B\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(238 102 187 / var(--tw-border-opacity));
+}
+
+.border-\[\#E6B762\]\/50{
+  border-color: rgb(230 183 98 / 0.5);
+}
+
 .bg-\[\#292929\]{
   --tw-bg-opacity: 1;
   background-color: rgb(41 41 41 / var(--tw-bg-opacity));
@@ -2386,6 +2399,10 @@ video {
 
 .opacity-70{
   opacity: 0.7;
+}
+
+.opacity-80{
+  opacity: 0.8;
 }
 
 .bg-blend-normal{
