@@ -1263,6 +1263,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row{
   flex-direction: row;
 }
@@ -1445,6 +1449,10 @@ video {
 
 .justify-items-stretch{
   justify-items: stretch;
+}
+
+.gap-1{
+  gap: 0.25rem;
 }
 
 .gap-2{
@@ -1916,6 +1924,10 @@ video {
   border-color: rgb(230 183 98 / var(--tw-border-opacity));
 }
 
+.border-\[\#E6B762\]\/50{
+  border-color: rgb(230 183 98 / 0.5);
+}
+
 .border-\[\#E6B762\]\/70{
   border-color: rgb(230 183 98 / 0.7);
 }
@@ -1936,10 +1948,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#E6B762\]\/70{
-  background-color: rgb(230 183 98 / 0.7);
 }
 
 .decoration-slice{
