@@ -661,6 +661,10 @@ video {
   inset: -0.25rem;
 }
 
+.inset-0{
+  inset: 0px;
+}
+
 .end-1{
   inset-inline-end: 0.25rem;
 }
@@ -679,6 +683,14 @@ video {
 
 .isolation-auto{
   isolation: auto;
+}
+
+.z-\[1\]{
+  z-index: 1;
+}
+
+.z-\[2\]{
+  z-index: 2;
 }
 
 .float-start{
@@ -723,6 +735,11 @@ video {
 
 .clear-none{
   clear: none;
+}
+
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mt-2{
@@ -828,6 +845,31 @@ video {
   display: none;
 }
 
+.aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[50vh\]{
+  height: 50vh;
+}
+
+.min-h-screen{
+  min-height: 100vh;
+}
+
 .w-14{
   width: 3.5rem;
 }
@@ -860,8 +902,17 @@ video {
   width: 2rem;
 }
 
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .max-w-\[400px\]{
   max-width: 400px;
+}
+
+.max-w-2xl{
+  max-width: 42rem;
 }
 
 .flex-shrink{
@@ -1395,6 +1446,14 @@ video {
   gap: 1.5rem;
 }
 
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-y-14{
+  row-gap: 3.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1853,6 +1912,14 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-black\/30{
+  background-color: rgb(0 0 0 / 0.3);
+}
+
+.bg-black\/50{
+  background-color: rgb(0 0 0 / 0.5);
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1963,6 +2030,11 @@ video {
      object-fit: scale-down;
 }
 
+.object-center{
+  -o-object-position: center;
+     object-position: center;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2071,6 +2143,16 @@ video {
   line-height: 1.25rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -2145,6 +2227,14 @@ video {
 .stacked-fractions{
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.tracking-wider{
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest{
+  letter-spacing: 0.1em;
 }
 
 .text-\[\#336699\]\/\[\.35\]{
@@ -2674,6 +2764,10 @@ body{
 }
 
 @media (min-width: 768px){
+  .md\:gap-y-16{
+    row-gap: 4rem;
+  }
+
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -2683,15 +2777,33 @@ body{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px){
+  .lg\:h-screen{
+    height: 100vh;
+  }
+
   .lg\:w-\[400px\]{
     width: 400px;
   }
 }
 
 @media (min-width: 1280px){
+  .xl\:gap-y-20{
+    row-gap: 5rem;
+  }
+
   .xl\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2699,6 +2811,16 @@ body{
 
   .xl\:text-lg{
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-xl{
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
