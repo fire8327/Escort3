@@ -40,6 +40,10 @@ body{
     font-style: normal;
 }
 
-.nav-active{
+.nav-active {
     @apply text-white bg-[#E6B762]/70
+}
+
+.pagination-active {
+    @apply text-white bg-[#E6B762]/70 flex items-center justify-center w-8 h-8 rounded-full
 }
