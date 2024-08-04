@@ -54,3 +54,10 @@ $("#toggler").click(() => {
     $("#menu").toggleClass("max-lg:top-full")
     $("#overlay").toggleClass("hidden")
 })
+
+
+/* filter list */
+$("#filterToggler").click(() => {
+    $("#filterList").slideToggle()
+    $("#filterToggler").find("img").toggleClass("max-lg:rotate-180 lg:rotate-180")
+})
