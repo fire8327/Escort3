@@ -46,4 +46,11 @@ $(".tab-main").each(function(index) {
   
     $this.tabs();
   });
+
   
+/* mobile menu */
+$("#toggler").click(() => {
+    $("#menu").toggleClass("max-lg:top-0 max-lg:-translate-y-full")
+    $("#menu").toggleClass("max-lg:top-full")
+    $("#overlay").toggleClass("hidden")
+})
