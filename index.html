@@ -32,16 +32,6 @@
     </header>
     
     <main class="grid-container w-full gap-y-14 md:gap-y-16 xl:gap-y-20 grow my-10">
-        <section class="w-full h-[50vh] lg:h-screen relative rounded-xl overflow-hidden flex items-center justify-center">
-            <img src="Assets/Images/hero/woman.jpg" alt="Главное фото" class="w-full h-full object-cover object-center">
-            <div class="inset-0 absolute z-[1] bg-black/50"></div>
-            <div class="text-base md:text-lg xl:text-xl absolute flex flex-col gap-4 z-[2] text-white items-center text-center px-4">
-                <h1 class="text-2xl md:text-3xl xl:text-4xl tracking-widest font-medium">VIP Эскорт № 1 в Городе N</h1>
-                <p class="max-w-2xl">Для тех, кто ценит в девушках красоту, ухоженность и сексуальность. Наши спутницы обладают не только великолепным внешним видом, но и умением поддержать интересный разговор, создавая незабываемые моменты для своих клиентов.</p>
-                <button class="w-fit px-4 py-2 rounded-lg transition-all duration-500 border border-[#E6B762] text-[#E6B762] hover:bg-[#E6B762] hover:text-white">Заказать эскорт</button>
-            </div>
-        </section>
-
         <nav class="flex items-center gap-2 w-full">
             <button class="p-2 rounded-lg border border-[#E6B762]/70 shrink-0 nav-prev">
                 <img src="Assets/Images/hero/arrow.svg" alt="Стрелка влево" class="w-6">
@@ -66,6 +56,8 @@
                 <img src="Assets/Images/hero/arrow.svg" alt="Стрелка вправо" class="w-6 scale-[-1]">
             </button>
         </nav>
+
+        <h1 class="text-2xl md:text-3xl xl:text-4xl tracking-widest font-medium text-center">VIP Эскорт № 1 в Городе N</h1>
 
         <section class="flex flex-col gap-6">
             <div class="flex items-center gap-2 flex-wrap">
@@ -632,7 +624,7 @@
 
                 <aside class="w-full lg:w-[20%] flex flex-col gap-6 max-lg:order-first">
                     <button class="flex items-center justify-between" id="filterToggler">
-                        <span class="text-xl md:text-2xl xl:text-3xl font-medium">Фильтры</span>
+                        <span class="text-lg md:text-xl xl:text-2xl font-medium">Фильтры</span>
                         <img src="Assets/Images/card/arrow.svg" alt="Иконка фильтров" class="w-8 transition-all duration-500 max-lg:rotate-180">
                     </button>
                     <div class="max-lg:hidden" id="filterList">
@@ -664,10 +656,13 @@
                             </div>
                             <div class="flex flex-col gap-2">
                                 <p class="opacity-70">Возраст</p>
-                                <div class="flex items-center gap-2 w-full">
-                                    <input type="text" class="w-1/2 rounded-l-xl border border-[#E6B762] px-4 py-2" placeholder="От">
-                                    <input type="text" class="w-1/2 rounded-r-xl border border-[#E6B762] px-4 py-2" placeholder="До">
-                                </div>
+                                <ul class="list-inside list-disc marker:text-[#E6B762]">
+                                    <li>18-20 (кол-во)</li>
+                                    <li>20-30 (кол-во)</li>
+                                    <li>30-40 (кол-во)</li>
+                                    <li>40-50 (кол-во)</li>
+                                    <li>>50 (кол-во)</li>
+                                </ul>                                
                             </div>
                             <div class="flex flex-col gap-2">
                                 <p class="opacity-70">Национальность</p>
@@ -702,6 +697,11 @@
                 <a href="#">69</a>
                 <button class="text-[#E6B762]/70">></button>
             </div>
+        </section>
+
+        <section class="flex flex-col gap-6 items-center">
+            <h2 class="text-lg md:text-xl xl:text-2xl text-center font-medium">Пример заголовка</h2>
+            <p class="text-base md:text-lg xl:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia non earum repellendus totam veniam, facilis magnam a quae, mollitia ea iusto aut dignissimos distinctio laborum veritatis. Necessitatibus, tenetur praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ullam sunt obcaecati id beatae non nesciunt! Quos, aspernatur a? Dolore magnam eligendi fugiat aspernatur voluptatum at aliquam ab fugit assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, consequuntur facere. Dolore blanditiis itaque doloremque voluptatibus ab illum repudiandae. Et, recusandae nisi. Est maiores magnam ad laboriosam tempora non quis!</p>
         </section>
     </main>
 
