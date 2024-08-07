@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Assets/CSS/output.css">
+</head>
+<body class="font-Roboto">
+    <header class="w-full grid-container py-4 relative">
+        <div class="flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2">
+                <img src="Assets/Images/header/logo.svg" alt="Логотип" class="w-14">
+                <span class="text-lg md:text-xl xl:text-2xl">Название бренда</span>
+            </a>
+            <nav class="flex items-center gap-6 text-sm md:text-base xl:text-lg transition-all duration-500 max-lg:absolute max-lg:flex-col max-lg:w-full max-lg:left-0 max-lg:top-0 max-lg:-translate-y-full z-[5] max-lg:py-6 max-lg:px-4 max-lg:bg-white max-lg:border-t border-[#E6B762]" id="menu">
+                <form action="#" class="relative w-full lg:w-[400px]">
+                    <input type="text" class="rounded-xl w-full border border-[#E6B762] pl-4 pr-16 py-2" placeholder="Улица, номер дома, метро...">
+                    <button class="absolute w-8 top-1/2 -translate-y-1/2 right-2">
+                        <img src="Assets/Images/header/search.svg" alt="Поиск">
+                    </button>
+                </form>
+                <button><span class="opacity-70">Город:</span> <span class="text-[#E6B762] font-medium">Москва</span></button>
+                <button class="w-fit px-4 py-2 rounded-lg transition-all duration-500 border border-[#E6B762] text-[#E6B762] hover:bg-[#E6B762] hover:text-white">Заказать эскорт</button>
+            </nav>
+            <button class="lg:hidden" id="toggler">
+                <img src="Assets/Images/header/menu.svg" alt="Иконка меню" class="w-7">
+            </button>
+        </div>
+        <div id="overlay" class="inset-0 fixed h-screen bg-black/50 top-24 hidden lg:hidden z-[4]"></div>
+    </header>
+    
+    <main class="grid-container w-full gap-y-14 md:gap-y-16 xl:gap-y-20 grow my-10">
+        <nav class="flex items-center gap-2 w-full">
+            <button class="p-2 rounded-lg border border-[#E6B762]/70 shrink-0 nav-prev">
+                <img src="Assets/Images/hero/arrow.svg" alt="Стрелка влево" class="w-6">
+            </button>
+            <div class="swiper nav-slider text-base md:text-lg xl:text-xl grow text-black">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg nav-active">Все анкеты</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Индивидуалки</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Популярное</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">БДСМ</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Новые</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Ждут звонка</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg nav-active">Все анкеты</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Индивидуалки</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Популярное</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">БДСМ</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Новые</a>
+                    <a href="#" class="swiper-slide h-10 flex items-center justify-center px-2 border border-[#E6B762]/70 rounded-lg">Ждут звонка</a>
+                </div>
+            </div>
+            <button class="p-2 rounded-lg border border-[#E6B762]/70 shrink-0 nav-next">
+                <img src="Assets/Images/hero/arrow.svg" alt="Стрелка вправо" class="w-6 scale-[-1]">
+            </button>
+        </nav>
+
+        <section class="flex flex-col gap-6">
+            <div class="flex items-center gap-2 flex-wrap">
+                <a href="index.html" class="opacity-70">Главная</a>
+                <p>/</p>
+                <p class="text-[#E6B762]">Все анкеты</p>
+            </div>
+            <div class="flex max-lg:flex-col gap-6 w-full">
+                <div class="flex flex-col gap-6 w-full lg:w-[55%]">
+                    <div class="relative w-full overflow-hidden rounded-xl">
+                        <div class="swiper girlPage-slider">
+                            <div class="swiper-wrapper h-full">
+                                <div class="swiper-slide">
+                                    <img src="Assets/Images/card/main.jpg" alt="" class="w-full h-full object-cover aspect-square">                                    
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="Assets/Images/card/1.png" alt="" class="w-full h-full object-cover aspect-square">                                    
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="Assets/Images/card/2.png" alt="" class="w-full h-full object-cover aspect-square">                                    
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="Assets/Images/card/3.png" alt="" class="w-full h-full object-cover aspect-square">                                    
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <button class="absolute top-4 left-4 bg-white p-2 z-[1] rounded-lg border border-black/30">
+                            <img src="Assets/Images/card/cam.svg" alt="Иконка камеры" class="w-7">
+                        </button>
+                    </div>
+                    <div class="swiper girlPage-slider2 w-full">
+                        <div class="swiper-wrapper w-full">
+                            <div class="swiper-slide">
+                                <img src="Assets/Images/card/main.jpg" alt="" class="w-full h-full rounded-xl object-cover">                                    
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Assets/Images/card/1.png" alt="" class="w-full h-full rounded-xl object-cover">                                    
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Assets/Images/card/2.png" alt="" class="w-full h-full rounded-xl object-cover">                                    
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Assets/Images/card/3.png" alt="" class="w-full h-full rounded-xl object-cover">                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-6 w-full lg:w-[45%] rounded-xl border border-[#E6B762]/70 p-4 h-fit">
+                    <div class="flex items-center justify-between">
+                        <h2 href="girl-number.html" class="text-lg md:text-xl xl:text-2xl font-medium">Полина, 25 лет</h2>
+                        <button>
+                            <img src="Assets/Images/card/star.svg" alt="Иконка звезды" class="w-8">
+                        </button>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex flex-col items-center gap-1">
+                            <p class="text-sm md:text-base xl:text-lg">📏 <span class="opacity-70">Рост</span></p>
+                            <p class="text-base md:text-lg xl:text-xl font-medium text-[#E6B762]">170 см</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <p class="text-sm md:text-base xl:text-lg">⚖️ <span class="opacity-70">Вес</span></p>
+                            <p class="text-base md:text-lg xl:text-xl font-medium text-[#E6B762]">55 кг</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <p class="text-sm md:text-base xl:text-lg">👙 <span class="opacity-70">Грудь</span></p>
+                            <p class="text-base md:text-lg xl:text-xl font-medium text-[#E6B762]">3</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <p class="text-sm md:text-base xl:text-lg">👁️ <span class="opacity-70">Глаза</span></p>
+                            <p class="text-base md:text-lg xl:text-xl font-medium text-[#E6B762]">Голубые</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full tab-main">
+                        <ul class="flex items-center justify-between text-base">
+                            <li class="flex items-center justify-center text-center w-2/5 border-t border-x border-[#E6B762] bg-[#E6B762] text-white rounded-t-[10px] tab-toggler"><a href="" class="py-3.5 w-full">Апартаменты</a></li>
+                            <li class="flex items-center justify-center text-center w-2/5 border-t border-x border-[#E6B762] bg-[#E6B762] text-white rounded-t-[10px] tab-toggler"><a href="" class="py-3.5 w-full">На выезд</a></li>
+                        </ul>
+                        <div class="flex items-center gap-4 justify-center px-4 py-2 text-center text-md md:text-lg xl:text-xl border border-[#E6B762] rounded-b-[20px] tab-card">
+                            <div class="flex flex-col gap-2 items-center">
+                                <p class="opacity-70">1 час:</p>
+                                <p>4000 ₽</p>
+                            </div>
+                            <div class="w-px h-8 bg-[#292929]"></div>
+                            <div class="flex flex-col gap-2 items-center">
+                                <p class="opacity-70">2 часа:</p>
+                                <p>8000 ₽</p>
+                            </div>
+                            <div class="w-px h-8 bg-[#292929]"></div>
+                            <div class="flex flex-col gap-2 items-center">
+                                <p class="opacity-70">Ночь:</p>
+                                <p>20000 ₽</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 justify-center px-4 py-2 text-center text-md md:text-lg xl:text-xl border border-[#E6B762] rounded-b-[20px] tab-card">
+                            <div class="flex flex-col gap-2 items-center">
+                                <p class="opacity-70">1 час:</p>
+                                <p>4002 ₽</p>
+                            </div>
+                            <div class="w-px h-8 bg-[#292929]"></div>
+                            <div class="flex flex-col gap-2 items-center">
+                                <p class="opacity-70">2 часа:</p>
+                                <p>8002 ₽</p>
+                            </div>
+                            <div class="w-px h-8 bg-[#292929]"></div>
+                            <div class="flex flex-col gap-2 items-center">
+                                <p class="opacity-70">Ночь:</p>
+                                <p>20002 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="flex items-center gap-2 text-base md:text-lg xl:text-xl">
+                        <img src="Assets/Images/card/locate.svg" alt="Иконка местоположения" class="w-7">
+                        <span>г. Москва</span>
+                    </button>
+                    <a href="tel:88005553535" class="text-lg md:text-xl xl:text-2xl flex items-center gap-2 justify-center">
+                        <img src="Assets/Images/card/phone.svg" alt="Иконка телефона" class="w-7">
+                        <span>8 800 555-35-35</span>
+                    </a>
+                    <div class="flex items-center gap-2 justify-end">
+                        <a href="#">
+                            <img src="Assets/Images/card/telegram.svg" alt="Иконка telegram" class="w-7">
+                        </a>
+                        <a href="#">
+                            <img src="Assets/Images/card/whatsapp.svg" alt="Иконка whatsapp" class="w-7">
+                        </a>
+                        <a href="#">
+                            <img src="Assets/Images/card/vk.svg" alt="Иконка vk" class="w-7">
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-6 w-full">
+                        <h2 href="girl-number.html" class="text-lg md:text-xl xl:text-2xl font-medium">Услуги</h2>
+                        <div class="flex max-lg:flex-col gap-6 lg:justify-between w-full text-sm md:text-base xl:text-lg">
+                            <div class="flex flex-col gap-2.5">
+                                <p class="text-base md:text-lg xl:text-xl">Основные:</p>
+                                <div class="opacity-70 flex flex-col">
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Классический секс</a>
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Куни</a>
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Групповой секс</a>
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Глубокий минет</a>
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Эротический массаж</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2.5">
+                                <p class="text-base md:text-lg xl:text-xl">Дополнительно:</p>
+                                <div class="opacity-70 flex flex-col">
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Двойное проникновение</a>
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Поза 69</a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2.5">
+                                <p class="text-base md:text-lg xl:text-xl">Экстрим:</p>
+                                <div class="opacity-70 flex flex-col">
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">БДСМ</a>
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Страпон</a>
+                                    <a class="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-px after:transition-all after:duration-500 after:bg-[#E6B762] hover:after:w-full" href="#">Золотой дождь</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col gap-6 items-center">
+            <h2 class="text-lg md:text-xl xl:text-2xl text-center font-medium">Пример заголовка</h2>
+            <p class="text-base md:text-lg xl:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quia non earum repellendus totam veniam, facilis magnam a quae, mollitia ea iusto aut dignissimos distinctio laborum veritatis. Necessitatibus, tenetur praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ullam sunt obcaecati id beatae non nesciunt! Quos, aspernatur a? Dolore magnam eligendi fugiat aspernatur voluptatum at aliquam ab fugit assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, consequuntur facere. Dolore blanditiis itaque doloremque voluptatibus ab illum repudiandae. Et, recusandae nisi. Est maiores magnam ad laboriosam tempora non quis!</p>
+        </section>
+    </main>
+
+    <footer class="grid-container w-full py-4 border-t border-[#E6B762]/50">
+        <div class="flex items-center justify-between max-lg:flex-col text-base md:text-lg xl:text-xl opacity-80">
+            <a href="index.html">© 2024 Название бренда</a>
+            <a href="#">Публичная оферта</a>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Assets/JS/main.js"></script>
+</body>
+</html>

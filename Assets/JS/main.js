@@ -25,6 +25,26 @@ const swiper = new Swiper('.nav-slider', {
     }
 });
 
+/* girlPage-slider */
+const swiper3 = new Swiper('.girlPage-slider2', {
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 3,
+  freeMode: true,
+  watchSlidesProgress: true
+});
+const swiper4 = new Swiper('.girlPage-slider', {
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  thumbs: {
+    swiper: swiper3,
+  }
+});
+
 
 /* tabs */
 $(".tab-main").each(function(index) {
@@ -45,7 +65,7 @@ $(".tab-main").each(function(index) {
     });
   
     $this.tabs();
-  });
+});
 
   
 /* mobile menu */
