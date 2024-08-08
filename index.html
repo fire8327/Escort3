@@ -14,7 +14,7 @@
                 <img src="Assets/Images/header/logo.svg" alt="Логотип" class="w-14">
                 <span class="text-lg md:text-xl xl:text-2xl">Название бренда</span>
             </a>
-            <nav class="flex items-center gap-6 text-sm md:text-base xl:text-lg transition-all duration-500 max-lg:absolute max-lg:flex-col max-lg:w-full max-lg:left-0 max-lg:top-0 max-lg:-translate-y-full z-[5] max-lg:py-6 max-lg:px-4 max-lg:bg-white max-lg:border-t border-[#E6B762]" id="menu">
+            <div class="flex items-center gap-6 text-sm md:text-base xl:text-lg transition-all duration-500 max-lg:absolute max-lg:flex-col max-lg:w-full max-lg:left-0 max-lg:top-0 max-lg:-translate-y-full z-[5] max-lg:py-6 max-lg:px-4 max-lg:bg-white max-lg:border-t border-[#E6B762]" id="menu">
                 <form action="#" class="relative w-full lg:w-[400px]">
                     <input type="text" class="rounded-xl w-full border border-[#E6B762] pl-4 pr-16 py-2" placeholder="Улица, номер дома, метро...">
                     <button class="absolute w-8 top-1/2 -translate-y-1/2 right-2">
@@ -23,7 +23,7 @@
                 </form>
                 <button><span class="opacity-70">Город:</span> <span class="text-[#E6B762] font-medium">Москва</span></button>
                 <button class="w-fit px-4 py-2 rounded-lg transition-all duration-500 border border-[#E6B762] text-[#E6B762] hover:bg-[#E6B762] hover:text-white">Заказать эскорт</button>
-            </nav>
+            </div>
             <button class="lg:hidden" id="toggler">
                 <img src="Assets/Images/header/menu.svg" alt="Иконка меню" class="w-7">
             </button>
@@ -57,23 +57,21 @@
             </button>
         </nav>
 
-        <h1 class="text-2xl md:text-3xl xl:text-4xl tracking-widest font-medium text-center">VIP Эскорт № 1 в Городе N</h1>
-
-        <section class="flex flex-col gap-6">
+        <div class="flex flex-col gap-6">
             <div class="flex items-center gap-2 flex-wrap">
                 <a href="index.html" class="opacity-70">Главная</a>
                 <p>/</p>
                 <p class="text-[#E6B762]">Все анкеты</p>
             </div>
             <div class="flex items-center gap-4 max-md:flex-col justify-between">
-                <h2 class="text-lg md:text-xl xl:text-2xl"><span class="opacity-70">Девушек по запросу найдено:</span> <span class="text-[#E6B762]">69</span></h2>
+                <h1 class="text-2xl md:text-3xl xl:text-4xl tracking-widest font-medium text-center">VIP Эскорт № 1 в Городе N</h1>
                 <button class="flex items-center gap-4 px-4 py-2 rounded-lg text-base md:text-lg xl:text-xl text-[#E6B762]/70 border border-[#E6B762]/70">
                     <img src="Assets/Images/card/location.svg" alt="Иконка карты" class="w-7">
                     <span>Показать на карте</span>
                 </button>
             </div>
             <div class="flex max-lg:flex-col gap-6 w-full">
-                <div class="w-full lg:w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <section class="w-full lg:w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <article class="flex flex-col gap-6 rounded-xl p-4 border border-[#E6B762]/70">
                         <div class="relative w-full">
                             <a href="girl-number.html">
@@ -620,7 +618,7 @@
                             </a>
                         </div>
                     </article>
-                </div>
+                </section>
 
                 <aside class="w-full lg:w-[20%] flex flex-col gap-6 max-lg:order-first">
                     <button class="flex items-center justify-between" id="filterToggler">
