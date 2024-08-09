@@ -71,7 +71,7 @@ $(".tab-main").each(function(index) {
 /* mobile menu */
 $("#toggler").click(() => {
     $("#menu").toggleClass("max-lg:top-0 max-lg:-translate-y-full")
-    $("#menu").toggleClass("max-lg:top-full")
+    $("#menu").toggleClass("max-lg:top-[88px]")
     $("#overlay").toggleClass("hidden")
 })
 

@@ -1504,6 +1504,10 @@ video {
   row-gap: 3.5rem;
 }
 
+.gap-y-6{
+  row-gap: 1.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2991,6 +2995,18 @@ body{
 
   .max-lg\:top-full{
     top: 100%;
+  }
+
+  .max-lg\:top-\[\]{
+    top: ;
+  }
+
+  .max-lg\:top-\[72px\]{
+    top: 72px;
+  }
+
+  .max-lg\:top-\[88px\]{
+    top: 88px;
   }
 
   .max-lg\:order-first{
