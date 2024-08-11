@@ -1981,6 +1981,10 @@ video {
   border-color: rgb(230 183 98 / var(--tw-border-opacity));
 }
 
+.border-\[\#E6B762\]\/30{
+  border-color: rgb(230 183 98 / 0.3);
+}
+
 .border-\[\#E6B762\]\/50{
   border-color: rgb(230 183 98 / 0.5);
 }
@@ -1991,14 +1995,6 @@ video {
 
 .border-black\/30{
   border-color: rgb(0 0 0 / 0.3);
-}
-
-.border-\[\]{
-  border-color: ;
-}
-
-.border-\[\#E6B762\]\/30{
-  border-color: rgb(230 183 98 / 0.3);
 }
 
 .bg-\[\#292929\]{
@@ -2999,18 +2995,6 @@ body{
 
   .max-lg\:top-0{
     top: 0px;
-  }
-
-  .max-lg\:top-full{
-    top: 100%;
-  }
-
-  .max-lg\:top-\[\]{
-    top: ;
-  }
-
-  .max-lg\:top-\[72px\]{
-    top: 72px;
   }
 
   .max-lg\:top-\[88px\]{
