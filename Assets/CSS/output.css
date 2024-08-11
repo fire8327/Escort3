@@ -1993,6 +1993,14 @@ video {
   border-color: rgb(0 0 0 / 0.3);
 }
 
+.border-\[\]{
+  border-color: ;
+}
+
+.border-\[\#E6B762\]\/30{
+  border-color: rgb(230 183 98 / 0.3);
+}
+
 .bg-\[\#292929\]{
   --tw-bg-opacity: 1;
   background-color: rgb(41 41 41 / var(--tw-bg-opacity));
